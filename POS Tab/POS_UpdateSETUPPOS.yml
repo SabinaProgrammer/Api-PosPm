@@ -1,0 +1,57 @@
+info:
+  name: POS_UpdateSETUPPOS
+  type: http
+  seq: 9
+
+http:
+  method: POST
+  url: http://192.168.5.30:10090/PM/UpdateSETUPPOS
+  body:
+    type: json
+    data: |-
+      {
+        "PM": {
+          "DocNo": "POS260005",
+          "PromotionSetupposStartDate": "2026-04-16T00:00:00",
+          "PromotionSetupposEndDate": "2026-04-29T00:00:00",
+          "CUSTOMERID": "002330",
+          "PromotionSetupposSenderID": 0,
+          "PromotionSetupposSenderDate": "2026-04-13T00:00:00",
+          "N_LINE": "BKK14",
+          "VICINITY": "โลตัส สุขุมวิท กรุงเทพมหานคร",
+          "PromotionSetupposNumber": 7, //จำนวนเครื่องทั้งหมดรวม POS ที่ใช้อยู่และ POS ใหม่
+          "UPDATEUSER": "CHAT"
+        },
+
+        "PM_SetUpPOSPM": [
+          { "PMID": "PM26000043" }
+        ],
+
+        "PM_SetUpPosDetail": [
+          { "POSID": "P143" },
+          { "POSID": "P143" },
+          { "POSID": "P143" },
+          { "POSID": "P143" },
+          { "POSID": "P143" },
+          { "POSID": "P143" },
+          { "POSID": "P143" }
+        ],
+
+        "PM_SETUPPOS_POSSTATION": [
+          {
+            "POSID": "P142",
+            "TYPE": "DEL"
+          },
+              {
+            "POSID": "P142",
+            "TYPE": "DEL"
+          }
+        ]
+      }
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

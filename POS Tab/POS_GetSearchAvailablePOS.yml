@@ -1,0 +1,19 @@
+info:
+  name: POS_GetSearchAvailablePOS
+  type: http
+  seq: 8
+
+http:
+  method: GET
+  url: http://192.168.5.30:10090/PM/GetSearchAvailablePOS?province=กรุงเทพมหานคร
+  params:
+    - name: province
+      value: กรุงเทพมหานคร
+      type: query
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

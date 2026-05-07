@@ -1,0 +1,19 @@
+info:
+  name: POS_GetSender
+  type: http
+  seq: 16
+
+http:
+  method: GET
+  url: http://192.168.5.30:10090/PM/GetSender?province=ชลบุรี
+  params:
+    - name: province
+      value: ชลบุรี
+      type: query
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

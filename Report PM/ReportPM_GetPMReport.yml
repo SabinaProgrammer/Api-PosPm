@@ -1,0 +1,22 @@
+info:
+  name: ReportPM_GetPMReport
+  type: http
+  seq: 1
+
+http:
+  method: GET
+  url: http://192.168.5.30:10090/PM/GetPMReport?startDate=2026-03-28&endDate=2026-05-25
+  params:
+    - name: startDate
+      value: 2026-03-28
+      type: query
+    - name: endDate
+      value: 2026-05-25
+      type: query
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

@@ -1,0 +1,19 @@
+info:
+  name: PM_GETPROMOTIONADDRESS
+  type: http
+  seq: 7
+
+http:
+  method: GET
+  url: http://192.168.5.30:10090/PM/GETPROMOTIONPERIOD?CUSTOMERID=001387
+  params:
+    - name: CUSTOMERID
+      value: "001387"
+      type: query
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

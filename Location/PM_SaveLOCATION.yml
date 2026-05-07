@@ -1,0 +1,27 @@
+info:
+  name: PM_SaveLOCATION
+  type: http
+  seq: 3
+
+http:
+  method: POST
+  url: http://192.168.5.30:10090/PM/SavePMLOCATION
+  body:
+    type: json
+    data: |-
+      {
+        "PLACE_NAME": "",
+        "PLACE_BRANCHNAME": "",
+        "PLACE_DEPARTMENTNAME": "",
+        "PLACE_PROVINCE": "",
+        "PLACE_CREATEUSER": "",
+        "PLACE_LOCATIONTYPE": "",
+        "N_LINE": ""
+      }
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

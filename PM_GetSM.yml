@@ -1,0 +1,19 @@
+info:
+  name: PM_GetSM
+  type: http
+  seq: 9
+
+http:
+  method: GET
+  url: http://192.168.5.30:10090/PM/GetSM?promotionId=PM17002411
+  params:
+    - name: promotionId
+      value: PM17002411
+      type: query
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

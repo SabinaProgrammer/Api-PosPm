@@ -1,0 +1,26 @@
+info:
+  name: PM_POSTSaveAddress
+  type: http
+  seq: 8
+
+http:
+  method: POST
+  url: http://192.168.5.30:10090/PM/SaveAddress
+  body:
+    type: json
+    data: |-
+      {
+        "CUSTOMERID": "009786",
+        "LOCATION": "TEST99999",
+        "ADDRESS1": "TESTADD9991",
+        "CREATEUSER": "CHAT",
+        "STATUS": 0,
+        "addressid" : "AD002832"
+      }
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

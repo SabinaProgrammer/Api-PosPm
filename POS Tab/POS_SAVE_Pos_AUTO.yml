@@ -1,0 +1,18 @@
+info:
+  name: POS_SAVE_Pos_AUTO
+  type: http
+  seq: 2
+
+http:
+  method: POST
+  url: http://192.168.5.30:10090/PM/SAVEPM_Pos
+  body:
+    type: json
+    data: ""
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

@@ -1,0 +1,19 @@
+info:
+  name: PM_GetById
+  type: http
+  seq: 13
+
+http:
+  method: GET
+  url: http://192.168.5.30:10090/PM/GetById?promotionId=PM26000054
+  params:
+    - name: promotionId
+      value: PM26000054
+      type: query
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

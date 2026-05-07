@@ -1,0 +1,22 @@
+info:
+  name: GetLoginData
+  type: http
+  seq: 25
+
+http:
+  method: POST
+  url: http://119.63.68.56:10080/api/v1/SBNLOGINFO/SabinaLogin
+  body:
+    type: json
+    data: |
+      {
+        "ID" :"CHAT ",
+        "PASSWORD" : "IS007"
+      }
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

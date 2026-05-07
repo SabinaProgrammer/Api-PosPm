@@ -1,0 +1,70 @@
+info:
+  name: PM_POSTSavePM
+  type: http
+  seq: 14
+
+http:
+  method: POST
+  url: http://192.168.5.30:10090/PM/SavePM
+  body:
+    type: json
+    data: |
+      {
+        "pm": {
+          "companyid": "SBN",
+          "customerid": "000214",
+          "customername": "บริษัท  พิษณุโลก  บิ๊กซี  จำกัด",
+          "address1": "677-681  ถนนจักรเพชร  แขวงวังบรูพาภิรมย์",
+          "address2": "เขตพระนคร  กรุงเทพฯ",
+          "telephone": "0812345678",
+          "createuserid": "admin",
+          "status": 0,
+          "addressid": "ADDR001",
+          "pmdate": "2025-02-10",
+          "RentalType": "TEAS1",
+          "DepositType": "TEAS2",
+          "RentalGP": "100.99",
+          "RentalAmount": "200.99",
+          "DepositAmount": "29999.88",
+          "B": "2",
+          "FORECASTSALE": "9000",
+          "FORECASTSHIP": "200",
+          "VICINITY": "ASDASDASD",
+          "PMSIZE" : "S",
+          "PromotionSetupposStartDate" : "2025-03-28",
+          "PromotionSetupposEndDate" : "2025-03-30"
+        },
+        "pm_Dates": [
+          {
+            "startdate": "2025-02-01",
+            "enddate": "2025-02-28",
+            "pm_target": 100000,
+            "pm_periodid": 1,
+            "pm_fiscoyear": 2025,
+            "pm_day": 28
+          }
+        ],
+        "pm_Targets": [
+          {
+            "grade": "A",
+            "target": 0
+          },
+          {
+            "grade": "B",
+            "target": 0
+          }
+        ],
+        "pm_PriceLists": [
+          {
+            "pricelistid": "PL001",
+            "target": 0
+          }
+        ]
+      }
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

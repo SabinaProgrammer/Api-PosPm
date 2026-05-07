@@ -1,0 +1,24 @@
+info:
+  name: PM_UpdateSECURITYDEPOSIT
+  type: http
+  seq: 1
+
+http:
+  method: POST
+  url: http://192.168.5.30:10090/PM/UpdatePMSECURITYDEPOSIT
+  body:
+    type: json
+    data: |-
+      {
+        "SD_KEY": 1,
+        "SD_PLACE_ID": 2070,
+        "SD_ENDDATE": "2026-04-30T00:00:00",
+        "SD_AMOUNT": 56000
+      }
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

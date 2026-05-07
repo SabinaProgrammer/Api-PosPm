@@ -1,0 +1,47 @@
+info:
+  name: POS_SaveSETUPPOS_CONT&TRUCK
+  type: http
+  seq: 7
+
+http:
+  method: POST
+  url: http://192.168.5.30:10090/PM/SaveSETUPPOS
+  body:
+    type: json
+    data: |-
+      {
+        "PM": {
+          "PromotionSetupposStartDate": "2026-04-21",
+          "PromotionSetupposEndDate": "2026-04-30",
+          "CUSTOMERID": "002330",
+          "PromotionSetupposSenderID": "2",
+          "PromotionSetupposSenderDate": "2026-04-14",
+          "N_LINE": "BKK14",
+          "VICINITY": "Bangkok",
+          "PromotionSetupposNumber": "1",
+           "CREATEUSER": "CHAT"
+        },
+        "PM_SetUpPosDetail": [
+        { 
+        "POSID": "P232"
+       }    
+        ],
+        "PM_SetUpPOSPM": [
+          {
+            "PMID": "PM26000042"
+          }
+        ],
+        "PM_SETUPPOS_POSSTATION_HISTORY": [
+        { 
+        "POSID": "P232",
+        "CREATEUSER": "CHAT"
+       }   
+        ]
+      }
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

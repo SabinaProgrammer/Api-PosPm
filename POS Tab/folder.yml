@@ -1,0 +1,7 @@
+info:
+  name: POS Tab
+  type: folder
+  seq: 23
+
+request:
+  auth: inherit

@@ -1,0 +1,19 @@
+info:
+  name: ReportPM_GetMonthForecast
+  type: http
+  seq: 2
+
+http:
+  method: GET
+  url: http://192.168.5.30:10090/PM/GetMonthlyFCReport?PROMOTIONID=PM26000066
+  params:
+    - name: PROMOTIONID
+      value: PM26000066
+      type: query
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

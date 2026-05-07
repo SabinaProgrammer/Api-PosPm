@@ -1,0 +1,21 @@
+info:
+  name: PM_GetPM
+  type: http
+  seq: 5
+
+http:
+  method: POST
+  url: http://192.168.5.30:10090/PM/GetPM
+  body:
+    type: json
+    data: |-
+      {
+        "n_LINE": ["BKK14"]
+      }
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
