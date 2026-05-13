@@ -10,7 +10,7 @@ http:
     type: json
     data: |-
       {
-        "n_LINE": ["BKK14"]
+        "n_LINE": ["BKK12"]
       }
   auth: inherit
 
