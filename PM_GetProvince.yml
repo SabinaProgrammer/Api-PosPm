@@ -5,7 +5,7 @@ info:
 
 http:
   method: GET
-  url: http://192.168.5.30:10090/PM/GETPOSTALCODETH
+  url: "{{base_url}}/PM/GETPOSTALCODETH"
   auth: inherit
 
 settings:

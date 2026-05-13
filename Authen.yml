@@ -5,7 +5,7 @@ info:
 
 http:
   method: POST
-  url: http://192.168.5.30:10090/Authen
+  url: "{{base_url}}/Authen"
   body:
     type: json
     data: |-

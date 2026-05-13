@@ -5,7 +5,7 @@ info:
 
 http:
   method: GET
-  url: http://192.168.5.30:10090/PM/GetPROMOTION?PROMOTIONID=PM000133
+  url: "{{base_url}}/PM/GetPROMOTION?PROMOTIONID=PM000133"
   params:
     - name: PROMOTIONID
       value: PM000133

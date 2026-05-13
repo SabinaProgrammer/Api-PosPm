@@ -1,0 +1,4 @@
+name: Test
+variables:
+  - name: base_url
+    value: http://192.168.5.30:10090

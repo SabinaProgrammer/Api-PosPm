@@ -5,7 +5,7 @@ info:
 
 http:
   method: GET
-  url: http://192.168.5.30:10090/PM/GetSalesReport?startDate=2024-04-01&endDate=2024-04-30
+  url: "{{base_url}}/PM/GetSalesReport?startDate=2024-04-01&endDate=2024-04-30"
   params:
     - name: startDate
       value: 2024-04-01

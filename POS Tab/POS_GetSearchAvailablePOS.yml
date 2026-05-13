@@ -5,7 +5,7 @@ info:
 
 http:
   method: GET
-  url: http://192.168.5.30:10090/PM/GetSearchAvailablePOS?province=กรุงเทพมหานคร
+  url: "{{base_url}}/PM/GetSearchAvailablePOS?province=กรุงเทพมหานคร"
   params:
     - name: province
       value: กรุงเทพมหานคร

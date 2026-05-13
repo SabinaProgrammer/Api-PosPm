@@ -5,7 +5,7 @@ info:
 
 http:
   method: POST
-  url: http://192.168.5.30:10090/PM/GetPM
+  url: "{{base_url}}/PM/GetPM"
   body:
     type: json
     data: |-

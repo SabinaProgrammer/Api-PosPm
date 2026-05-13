@@ -5,7 +5,7 @@ info:
 
 http:
   method: GET
-  url: http://192.168.5.30:10090/PcStore/access/WAREE_A
+  url: "{{base_url}}/PcStore/access/WAREE_A"
   auth: inherit
 
 settings:

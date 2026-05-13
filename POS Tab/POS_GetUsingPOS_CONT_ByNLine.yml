@@ -5,7 +5,7 @@ info:
 
 http:
   method: GET
-  url: http://192.168.5.30:10090/PM/GetSetupPos_CONT
+  url: "{{base_url}}/PM/GetSetupPos_CONT"
   auth: inherit
 
 settings:

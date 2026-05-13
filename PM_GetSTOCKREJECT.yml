@@ -5,7 +5,7 @@ info:
 
 http:
   method: GET
-  url: http://192.168.5.30:10090/PM/GetSTOCKREJECT?promotionId=PM10000865
+  url: "{{base_url}}/PM/GetSTOCKREJECT?promotionId=PM10000865"
   params:
     - name: promotionId
       value: PM10000865
