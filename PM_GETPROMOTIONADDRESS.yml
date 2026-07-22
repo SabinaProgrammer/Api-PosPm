@@ -5,7 +5,7 @@ info:
 
 http:
   method: GET
-  url: "{{base_url}}/PM/GETPROMOTIONPERIOD?CUSTOMERID=001387"
+  url: "{{base_url}}/TH/GETPROMOTIONPERIOD?CUSTOMERID=001387"
   params:
     - name: CUSTOMERID
       value: "001387"

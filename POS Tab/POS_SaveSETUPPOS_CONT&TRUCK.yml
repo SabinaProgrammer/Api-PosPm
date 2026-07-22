@@ -5,37 +5,37 @@ info:
 
 http:
   method: POST
-  url: http://192.168.5.30:10090/PM/SaveSETUPPOS
+  url: "{{base_url}}/TH/SaveSETUPPOS"
   body:
     type: json
     data: |-
       {
         "PM": {
-          "PromotionSetupposStartDate": "2026-04-21",
-          "PromotionSetupposEndDate": "2026-04-30",
-          "CUSTOMERID": "002330",
-          "PromotionSetupposSenderID": "2",
-          "PromotionSetupposSenderDate": "2026-04-14",
-          "N_LINE": "BKK14",
-          "VICINITY": "Bangkok",
-          "PromotionSetupposNumber": "1",
-           "CREATEUSER": "CHAT"
+          "PromotionSetupposStartDate": "2026-08-01T00:00:00",
+          "PromotionSetupposEndDate": "2026-08-30T00:00:00",
+          "CUSTOMERID": "002880",
+          "PromotionSetupposSenderID": 1,
+          "PromotionSetupposSenderDate": "2026-08-24T00:00:00",
+          "N_LINE": "E13",
+
+          "PromotionSetupposNumber": 1,
+           "CREATEUSER": "admin"
         },
         "PM_SetUpPosDetail": [
-        { 
-        "POSID": "P232"
-       }    
+          {
+            "POSID": "P337"
+          }
         ],
         "PM_SetUpPOSPM": [
           {
-            "PMID": "PM26000042"
+            "PMID": "PM26000077"
           }
         ],
         "PM_SETUPPOS_POSSTATION_HISTORY": [
-        { 
-        "POSID": "P232",
-        "CREATEUSER": "CHAT"
-       }   
+          {
+            "POSID": "P337",
+            "CREATEUSER": "admin"
+          }
         ]
       }
   auth: inherit

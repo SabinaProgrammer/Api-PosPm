@@ -5,7 +5,7 @@ info:
 
 http:
   method: POST
-  url: http://192.168.5.30:10090/PM/UpdatePM
+  url: http://192.168.5.30:10090/TH/UpdatePM
   body:
     type: json
     data: |
@@ -60,22 +60,22 @@ http:
         "PM_Targets": [
           {
             "GRADE": "A",
-            "TARGET": 3000
+            "TARGET": 0
           },
           {
             "GRADE": "B",
-            "TARGET": 2000
+            "TARGET": 0
           }
         ],
 
         "PM_PriceLists": [
           {
             "PRICELISTID": "PL001",
-            "TARGET": 1000
+            "TARGET": 0
           },
           {
             "PRICELISTID": "PL002",
-            "TARGET": 1500
+            "TARGET": 0
           }
         ]
       }

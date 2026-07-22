@@ -5,7 +5,7 @@ info:
 
 http:
   method: POST
-  url: http://192.168.5.30:10090/PM/SAVEPM_Pos
+  url: http://192.168.5.30:10090/TH/SAVEPM_Pos
   body:
     type: json
     data: ""

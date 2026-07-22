@@ -5,7 +5,7 @@ info:
 
 http:
   method: GET
-  url: "{{base_url}}/PcStore/access/WAREE_A"
+  url: "{{base_url}}/PcStore/access/chat"
   auth: inherit
 
 settings:

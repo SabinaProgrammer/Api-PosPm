@@ -5,7 +5,7 @@ info:
 
 http:
   method: GET
-  url: "{{base_url}}/PM/GetSetUpPos?DocNo=POS090001"
+  url: "{{base_url}}/TH/GetSetUpPos?DocNo=POS090001"
   params:
     - name: DocNo
       value: POS090001

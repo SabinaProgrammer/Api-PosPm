@@ -1,16 +1,17 @@
 info:
-  name: PM_GetPM
+  name: GetLogin_MENUWEB_GROUP
   type: http
-  seq: 5
+  seq: 28
 
 http:
   method: POST
-  url: "{{base_url}}/TH/GetPM"
+  url: "{{base_url}}/TH/GetLogin_MENUWEB_GROUP"
   body:
     type: json
     data: |-
       {
-        "n_LINE": []
+        "id": "chat",
+        "password": "is007"
       }
   auth: inherit
 

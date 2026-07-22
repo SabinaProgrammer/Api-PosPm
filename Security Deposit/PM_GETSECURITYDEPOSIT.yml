@@ -5,10 +5,10 @@ info:
 
 http:
   method: GET
-  url: "{{base_url}}/PM/GETSECURITYDEPOSIT?SD_PLACE_ID=359"
+  url: "{{base_url}}/TH/GETSECURITYDEPOSIT?SD_PLACE_ID=2070"
   params:
     - name: SD_PLACE_ID
-      value: "359"
+      value: "2070"
       type: query
   auth: inherit
 

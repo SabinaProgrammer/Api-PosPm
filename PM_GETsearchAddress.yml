@@ -5,7 +5,7 @@ info:
 
 http:
   method: GET
-  url: "{{base_url}}/PM/searchAddress?customerid=002330"
+  url: "{{base_url}}/TH/searchAddress?customerid=002330"
   params:
     - name: customerid
       value: "002330"

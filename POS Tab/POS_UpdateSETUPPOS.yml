@@ -5,7 +5,7 @@ info:
 
 http:
   method: POST
-  url: http://192.168.5.30:10090/PM/UpdateSETUPPOS
+  url: http://192.168.5.30:10090/TH/UpdateSETUPPOS
   body:
     type: json
     data: |-
@@ -40,7 +40,7 @@ http:
         "PM_SETUPPOS_POSSTATION": [
           {
             "POSID": "P142",
-            "TYPE": "DEL"
+            "TYPE": "HOLD"
           },
               {
             "POSID": "P142",
