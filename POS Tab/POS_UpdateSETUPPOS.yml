@@ -5,49 +5,54 @@ info:
 
 http:
   method: POST
-  url: http://192.168.5.30:10090/TH/UpdateSETUPPOS
+  url: http://192.168.5.30:10090/PM/UpdateSETUPPOS
   body:
     type: json
-    data: |-
+    data: |
       {
         "PM": {
           "DocNo": "POS260005",
           "PromotionSetupposStartDate": "2026-04-16T00:00:00",
-          "PromotionSetupposEndDate": "2026-04-29T00:00:00",
-          "CUSTOMERID": "002330",
-          "PromotionSetupposSenderID": 0,
-          "PromotionSetupposSenderDate": "2026-04-13T00:00:00",
-          "N_LINE": "BKK14",
-          "VICINITY": "โลตัส สุขุมวิท กรุงเทพมหานคร",
-          "PromotionSetupposNumber": 7, //จำนวนเครื่องทั้งหมดรวม POS ที่ใช้อยู่และ POS ใหม่
           "UPDATEUSER": "CHAT"
         },
-
-        "PM_SetUpPOSPM": [
-          { "PMID": "PM26000043" }
-        ],
-
-        "PM_SetUpPosDetail": [
-          { "POSID": "P143" },
-          { "POSID": "P143" },
-          { "POSID": "P143" },
-          { "POSID": "P143" },
-          { "POSID": "P143" },
-          { "POSID": "P143" },
-          { "POSID": "P143" }
-        ],
-
         "PM_SETUPPOS_POSSTATION": [
           {
-            "POSID": "P142",
+            "POSID": "POS1003",//เครื่องเสีย
+            "TYPE": "HOLD",
+            "REPLACEPOSID": "POS2001" //เครื่องทดแทน(เครื่องทดแทนอย่างน้อย1)
+             {
+            "POSID": "POS1004", //กรณีเครื่องเสีย 3เครื่อง ไม่มีเครื่องว่าง เหลือ1 แบบนี้
             "TYPE": "HOLD"
           },
-              {
-            "POSID": "P142",
-            "TYPE": "DEL"
+          {
+            "POSID": "POS1005",
+            "TYPE": "HOLD"
+          }
           }
         ]
       }
+         // "PM_SETUPPOS_POSSTATION": [
+         //   {
+         //   "POSID": "POS4",
+         //   "TYPE": "ADD"    เพิ่มเครื่อง
+         // }
+         //"PM_SETUPPOS_POSSTATION": [
+         // {
+         //   "POSID": "POS2",
+         //   "TYPE": "DEL"
+         // }
+        //]
+        //คืนกับเพิ่มได้
+        // "PM_SETUPPOS_POSSTATION": [
+        //  {
+        //    "POSID": "POS4",
+         //   "TYPE": "ADD"
+         // },
+         // {
+         //   "POSID": "POS2",
+         //   "TYPE": "DEL"
+         // }
+       // ]
   auth: inherit
 
 settings:
