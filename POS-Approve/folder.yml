@@ -1,0 +1,10 @@
+info:
+  name: POS-Approve
+  type: folder
+  seq: 31
+
+request:
+  headers:
+    - name: base_url
+      value: https://localhost:7022
+  auth: inherit
