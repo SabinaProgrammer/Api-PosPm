@@ -5,10 +5,10 @@ info:
 
 http:
   method: GET
-  url: "{{base_url}}/POS/Approve/GetStockReject?customerid=000012"
+  url: "{{base_url}}/POS/Approve/GetStockReject?customerid=0000"
   params:
     - name: customerid
-      value: "000012"
+      value: "0000"
       type: query
   auth: inherit
 
