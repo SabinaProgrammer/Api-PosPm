@@ -9,7 +9,15 @@ http:
   body:
     type: json
     data: |-
-
+      {
+          "ApproveDelete": "A",
+          "UserID": "ADMIN",
+          "ListPM": [
+              "RHX00001226070002",
+              "RHX00001226070001"
+            
+          ]
+      }
   auth: inherit
 
 settings:
