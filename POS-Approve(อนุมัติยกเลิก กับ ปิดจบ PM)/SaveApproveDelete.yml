@@ -10,9 +10,13 @@ http:
     type: json
     data: |-
       {
-        "DOCNO": "RHX00001226070002",
-        "ApproveDelete": "A",
-        "UserID": "admin"
+          "ApproveDelete": "A",
+          "UserID": "ADMIN",
+          "ListPM": [
+              "RHX00001226070002",
+              "RHX00001226070001"
+            
+          ]
       }
   auth: inherit
 
