@@ -9,11 +9,18 @@ http:
   body:
     type: json
     data: |-
-      {
+      [
+        {
         "DOCNO": "RHX00001226070002",
         "ApproveDelete": "A",
         "UserID": "admin"
-      }
+        },
+        {
+        "DOCNO": "RHX00001226070001",
+        "ApproveDelete": "A",
+        "UserID": "admin"
+        }
+      ]
   auth: inherit
 
 settings:

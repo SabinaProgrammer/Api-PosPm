@@ -5,10 +5,10 @@ info:
 
 http:
   method: GET
-  url: "{{base_url}}/POS/Approve/GetStockRejectDetail?docNo=RHA041810002"
+  url: "{{base_url}}/POS/Approve/GetStockRejectDetail?docNo=RHX00001226070001"
   params:
     - name: docNo
-      value: RHA041810002
+      value: RHX00001226070001
       type: query
   auth: inherit
 

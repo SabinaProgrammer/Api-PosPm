@@ -5,10 +5,10 @@ info:
 
 http:
   method: GET
-  url: "{{base_url}}/TH/searchAddress?customerid=00880"
+  url: "{{base_url}}/PM/searchAddress?customerid=002330"
   params:
     - name: customerid
-      value: "00880"
+      value: "002330"
       type: query
   auth: inherit
 

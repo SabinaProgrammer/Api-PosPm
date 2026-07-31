@@ -5,7 +5,7 @@ info:
 
 http:
   method: POST
-  url: http://192.168.5.30:10090/TH/UpdatePM
+  url: http://192.168.5.30:10090/PM/UpdatePM
   body:
     type: json
     data: |
@@ -41,11 +41,7 @@ http:
         "PM_Dates": [
           {
             "STARTDATE": "2026-01-01",
-            "ENDDATE": "2026-01-31",
-
-            "PM_PERIODID": "1",
-            "PM_FISCOYEAR": "2026",
-            "PM_DAY": 31
+            "ENDDATE": "2026-01-31"
           },
           {
             "STARTDATE": "2026-02-01",

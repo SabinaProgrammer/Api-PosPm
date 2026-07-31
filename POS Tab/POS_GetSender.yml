@@ -5,7 +5,7 @@ info:
 
 http:
   method: GET
-  url: "{{base_url}}/TH/GetSender?province=ชลบุรี"
+  url: "{{base_url}}/PM/GetSender?province=ชลบุรี"
   params:
     - name: province
       value: ชลบุรี
