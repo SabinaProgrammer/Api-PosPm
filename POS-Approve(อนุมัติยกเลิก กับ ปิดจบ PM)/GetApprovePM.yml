@@ -5,7 +5,11 @@ info:
 
 http:
   method: GET
-  url: "{{base_url}}/POS/Approve/GetForAutoKeepingReport_SPC"
+  url: "{{base_url}}/POS/Approve/GetForAutoKeepingReport_SPC?N_LINE=M14"
+  params:
+    - name: N_LINE
+      value: M14
+      type: query
   auth: inherit
 
 settings:
