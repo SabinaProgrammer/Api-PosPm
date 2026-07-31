@@ -10,11 +10,11 @@ http:
     type: json
     data: |-
       {
-          "ApproveDelete": "A",
+          
           "UserID": "ADMIN",
-          "ListPM": [
-              "RHX00001226070002",
-              "RHX00001226070001"
+          "ListApprove": [
+              "RX00001225080014",
+              "RX00001225080015"
             
           ]
       }
