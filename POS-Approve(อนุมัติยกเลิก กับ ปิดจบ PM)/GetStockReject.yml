@@ -5,7 +5,11 @@ info:
 
 http:
   method: GET
-  url: "{{base_url}}/POS/Approve/GetStockReject"
+  url: "{{base_url}}/POS/Approve/GetStockReject?customerid=000012"
+  params:
+    - name: customerid
+      value: "000012"
+      type: query
   auth: inherit
 
 settings:
