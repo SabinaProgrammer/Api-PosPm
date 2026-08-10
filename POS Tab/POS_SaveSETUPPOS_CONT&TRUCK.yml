@@ -5,16 +5,19 @@ info:
 
 http:
   method: POST
-  url: "{{base_url}}/TH/SaveSETUPPOS"
+  url: "{{base_url}}/PM/SaveSETUPPOS"
   body:
     type: json
     data: |-
       {
         "PM": {
+          "PROMOTIONID": "PM26000087",
+           "PromotionSetupPosType": "CON",
           "PromotionSetupposStartDate": "2026-08-01T00:00:00",
           "PromotionSetupposEndDate": "2026-08-30T00:00:00",
           "CUSTOMERID": "002880",
           "PromotionSetupposSenderID": 1,
+           "PromotionSetupposNumber": 1,
           "PromotionSetupposSenderDate": "2026-08-24T00:00:00",
           "N_LINE": "E13",
 
@@ -28,7 +31,7 @@ http:
         ],
         "PM_SetUpPOSPM": [
           {
-            "PMID": "PM26000077"
+            "PMID": "PM26000087"
           }
         ],
         "PM_SETUPPOS_POSSTATION_HISTORY": [
