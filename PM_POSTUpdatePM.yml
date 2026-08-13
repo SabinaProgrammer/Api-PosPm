@@ -11,7 +11,7 @@ http:
     data: |
       {
         "PM": {
-          "PROMOTIONID": "PM26000006",
+          "PROMOTIONID": "PM26000095",
           "companyid": "SBN",
           "customerid": "000214",
           "customername": "บริษัท  พิษณุโลก  บิ๊กซี  จำกัด",
@@ -35,7 +35,8 @@ http:
           "PromotionSetupposStartDate" : "2025-03-28",
           "PromotionSetupposEndDate" : "2025-03-30",
           "UpdateUser" : "CHAT",
-          "UpdaateDate" : "2025-03-30"
+          "UpdaateDate" : "2025-03-30",
+          "ISINDOOR" : false //false 0/true 1
         },
 
         "PM_Dates": [

@@ -5,10 +5,10 @@ info:
 
 http:
   method: GET
-  url: "{{base_url}}/PM/GetById?promotionId=PM26000087"
+  url: "{{base_url}}/PM/GetById?promotionId=PM26000100"
   params:
     - name: promotionId
-      value: PM26000087
+      value: PM26000100
       type: query
   auth: inherit
 
