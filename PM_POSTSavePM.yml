@@ -33,7 +33,7 @@ http:
           "PMSIZE" : "S",
           "PromotionSetupposStartDate" : "2026-09-15",
           "PromotionSetupposEndDate" : "2026-09-30",
-              "ISINDOOR" : true //false 0/true 1
+           
         },
         "pm_Dates": [
           {
@@ -42,7 +42,8 @@ http:
             "pm_target": 100000,
             "pm_periodid": 1,
             "pm_fiscoyear": 2026,
-            "pm_day": 15
+            "pm_day": 15,
+               "ISINDOOR" : true //false 0/true 1
           }
         ],
         "pm_Targets": [

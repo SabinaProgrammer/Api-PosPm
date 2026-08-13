@@ -36,13 +36,15 @@ http:
           "PromotionSetupposEndDate" : "2025-03-30",
           "UpdateUser" : "CHAT",
           "UpdaateDate" : "2025-03-30",
-          "ISINDOOR" : false //false 0/true 1
+         
         },
 
         "PM_Dates": [
           {
             "STARTDATE": "2026-01-01",
-            "ENDDATE": "2026-01-31"
+            "ENDDATE": "2026-01-31",
+                 "PM_DAY": 30,
+              "ISINDOOR" : true //false 0/true 1
           },
           {
             "STARTDATE": "2026-02-01",
@@ -51,6 +53,7 @@ http:
             "PM_PERIODID": "1",
             "PM_FISCOYEAR": "2026",
             "PM_DAY": 28
+             "ISINDOOR" : false //false 0/true 1
           }
         ],
 
