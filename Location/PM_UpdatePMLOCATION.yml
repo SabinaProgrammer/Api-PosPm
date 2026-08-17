@@ -10,14 +10,7 @@ http:
     type: json
     data: |-
       {
-        "PLACE_NAME": "แม็คโคร ปราจีนบุรี",
-        "PLACE_BRANCHNAME": "ปราจีนบุรี",
-        "PLACE_DEPARTMENTNAME": "ห้างใหญ่",
-        "PLACE_PROVINCE": "",
-        "PLACE_CREATEUSER": "PHANTIPA_M",
-        "PLACE_DISTRICT": "ปราจีนบุรี",
-        "PLACE_LOCATIONTYPE": "Discount",
-        "PLACE_LINE": "E11"
+
       }
   auth: inherit
 
