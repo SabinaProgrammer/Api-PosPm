@@ -10,7 +10,16 @@ http:
     type: json
     data: |-
       {
-
+         "PLACE_ID": "6699",
+        "PLACE_NAME": "ขอนแก่น สาขา1",
+        "PLACE_BRANCHNAME": "สาขาเซนทรัล ขอนแก่น",
+        "PLACE_DEPARTMENTNAME": "ห้าง",
+        "PLACE_PROVINCE": "ขอนแก่น",
+        "PLACE_CREATEUSER": "admin",
+        "PLACE_LOCATIONTYPE": "กลุ่มห้างใหญ่",
+        "PLACE_LINE": "BKK12"   ,
+          "PLACE_DISTRICT" : "เมือง" 
+      }
   auth: inherit
 
 settings:
