@@ -18,7 +18,7 @@ http:
         "PLACE_UPDATEUSER": "admin",
         "PLACE_LOCATIONTYPE": "ห้าง",
         "PLACE_LINE": "BKK12"   ,
-        "PLACE_DISTRICT" : "เมืองขอนแก่น"
+        "PLACE_DISTRICT" : "เมืองขอนแก่น" 
       } 
   auth: inherit
 
