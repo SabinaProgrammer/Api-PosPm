@@ -5,7 +5,7 @@ info:
 
 http:
   method: POST
-  url: "{{base_url}}/TH/GetLogin_MENUWEB_GROUP"
+  url: "{{base_url}}/PM/GetLogin_MENUWEB_GROUP"
   body:
     type: json
     data: |-

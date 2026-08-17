@@ -35,7 +35,7 @@ http:
           "PromotionSetupposStartDate" : "2025-03-28",
           "PromotionSetupposEndDate" : "2025-03-30",
           "UpdateUser" : "CHAT",
-          "UpdaateDate" : "2025-03-30",
+          "UpdaateDate" : "2025-03-30"
          
         },
 
@@ -52,7 +52,7 @@ http:
         
             "PM_PERIODID": "1",
             "PM_FISCOYEAR": "2026",
-            "PM_DAY": 28
+            "PM_DAY": 28,
              "ISINDOOR" : false //false 0/true 1
           }
         ],
