@@ -5,7 +5,7 @@ info:
 
 http:
   method: GET
-  url: "{{base_url}}/TH/GETPROMOTION_DEFAULT_LOCATIONTYPE"
+  url: "{{base_url}}/PM/GETPROMOTION_DEFAULT_LOCATIONTYPE"
   auth: inherit
 
 settings:

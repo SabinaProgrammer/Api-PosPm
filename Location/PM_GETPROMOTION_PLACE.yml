@@ -5,7 +5,7 @@ info:
 
 http:
   method: GET
-  url: "{{base_url}}/TH/GETPMLOCATION"
+  url: "{{base_url}}/PM/GETPMLOCATION"
   auth: inherit
 
 settings:

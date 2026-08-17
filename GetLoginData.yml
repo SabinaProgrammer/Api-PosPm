@@ -8,11 +8,12 @@ http:
   url: http://119.63.68.56:10080/api/v1/SBNLOGINFO/SabinaLogin
   body:
     type: json
-    data: |
+    data: |-
       {
         "ID" :"CHAT ",
         "PASSWORD" : "IS007"
       }
+      // ไม่ใช้ API นี้แล้ว
   auth: inherit
 
 settings:
