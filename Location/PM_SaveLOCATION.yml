@@ -16,7 +16,7 @@ http:
         "PLACE_PROVINCE": "ขอนแก่น",
         "PLACE_CREATEUSER": "admin",
         "PLACE_LOCATIONTYPE": "กลุ่มห้างใหญ่",
-        "PLACE_LINE": "BKK12"
+        "PLACE_LINE": "BKK12"   
       }
   auth: inherit
 

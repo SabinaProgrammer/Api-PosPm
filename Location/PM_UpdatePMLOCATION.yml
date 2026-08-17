@@ -17,8 +17,8 @@ http:
         "PLACE_PROVINCE": "ขอนแก่น",
         "PLACE_UPDATEUSER": "admin",
         "PLACE_LOCATIONTYPE": "ห้าง",
-        "PLACE_LINE": "BKK12"
-      }
+        "PLACE_LINE": "BKK12"   
+      } 
   auth: inherit
 
 settings:
