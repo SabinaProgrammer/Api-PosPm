@@ -10,13 +10,14 @@ http:
     type: json
     data: |-
       {
-        "PLACE_NAME": "",
-        "PLACE_BRANCHNAME": "",
-        "PLACE_DEPARTMENTNAME": "",
-        "PLACE_PROVINCE": "",
-        "PLACE_CREATEUSER": "",
-        "PLACE_LOCATIONTYPE": "",
-        "N_LINE": ""
+        "PLACE_ID": 6699,
+        "PLACE_NAME": "ขอนแก่น",
+        "PLACE_BRANCHNAME": "สาขาเซนทรัล ขอนแก่น",
+        "PLACE_DEPARTMENTNAME": "ห้าง",
+        "PLACE_PROVINCE": "ขอนแก่น",
+        "PLACE_UPDATEUSER": "admin",
+        "PLACE_LOCATIONTYPE": "ห้าง",
+        "PLACE_LINE": "BKK12"
       }
   auth: inherit
 

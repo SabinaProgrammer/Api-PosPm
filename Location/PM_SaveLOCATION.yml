@@ -5,18 +5,18 @@ info:
 
 http:
   method: POST
-  url: http://192.168.5.30:10090/PM/SavePMLOCATION
+  url: "{{base_url}}/PM/SavePMLOCATION"
   body:
     type: json
     data: |-
       {
-        "PLACE_NAME": "",
-        "PLACE_BRANCHNAME": "",
-        "PLACE_DEPARTMENTNAME": "",
-        "PLACE_PROVINCE": "",
-        "PLACE_CREATEUSER": "",
-        "PLACE_LOCATIONTYPE": "",
-        "N_LINE": ""
+        "PLACE_NAME": "ขอนแก่น สาขา1",
+        "PLACE_BRANCHNAME": "สาขาเซนทรัล ขอนแก่น",
+        "PLACE_DEPARTMENTNAME": "ห้าง",
+        "PLACE_PROVINCE": "ขอนแก่น",
+        "PLACE_CREATEUSER": "admin",
+        "PLACE_LOCATIONTYPE": "กลุ่มห้างใหญ่",
+        "PLACE_LINE": "BKK12"
       }
   auth: inherit
 
