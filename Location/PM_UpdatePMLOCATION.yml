@@ -11,13 +11,14 @@ http:
     data: |-
       {
         "PLACE_ID": 6699,
-        "PLACE_NAME": "ขอนแก่น",
+        "PLACE_NAME": "ขอนแก่น2",
         "PLACE_BRANCHNAME": "สาขาเซนทรัล ขอนแก่น",
         "PLACE_DEPARTMENTNAME": "ห้าง",
         "PLACE_PROVINCE": "ขอนแก่น",
         "PLACE_UPDATEUSER": "admin",
         "PLACE_LOCATIONTYPE": "ห้าง",
-        "PLACE_LINE": "BKK12"   
+        "PLACE_LINE": "BKK12"   ,
+        "PLACE_DISTRICT" : "เมืองขอนแก่น"
       } 
   auth: inherit
 
