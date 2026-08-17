@@ -5,7 +5,7 @@ info:
 
 http:
   method: GET
-  url: "{{base_url}}/TH/GetSetupPos_TRUCK"
+  url: "{{base_url}}/PM/GetSetupPos_TRUCK"
   auth: inherit
 
 settings:

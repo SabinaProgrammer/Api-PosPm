@@ -10,8 +10,8 @@ http:
     type: json
     data: |-
       {
-        "id": "chat",
-        "password": "is007"
+        "id": "Kruawan_a",
+        "password": "password"
       }
   auth: inherit
 

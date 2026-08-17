@@ -5,10 +5,19 @@ info:
 
 http:
   method: POST
-  url: http://192.168.5.30:10090/TH/SAVEPM_Pos
+  url: "{{base_url}}/PM/SAVEPM_Pos"
   body:
     type: json
-    data: ""
+    data: |-
+      {
+        "PM": {
+          "PROMOTIONID": "PM26000095",
+          "PromotionSetupPosType": "AUTO",
+          "PromotionSetupposSenderDate": "2026-09-07",
+          "PromotionSetupposSenderID": "0",
+          "PromotionSetupposNumber": "1"
+        }
+      }
   auth: inherit
 
 settings:
