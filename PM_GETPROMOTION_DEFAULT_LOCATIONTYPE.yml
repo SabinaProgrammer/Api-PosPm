@@ -1,7 +1,7 @@
 info:
   name: PM_GETPROMOTION_DEFAULT_LOCATIONTYPE
   type: http
-  seq: 21
+  seq: 20
 
 http:
   method: GET

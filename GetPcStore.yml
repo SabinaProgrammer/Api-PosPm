@@ -1,7 +1,7 @@
 info:
   name: GetPcStore
   type: http
-  seq: 29
+  seq: 27
 
 http:
   method: GET

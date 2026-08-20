@@ -1,0 +1,7 @@
+info:
+  name: address(ที่อยู่จัดส่ง)
+  type: folder
+  seq: 30
+
+request:
+  auth: inherit

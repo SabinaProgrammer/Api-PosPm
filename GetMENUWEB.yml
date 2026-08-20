@@ -1,7 +1,7 @@
 info:
   name: GetMENUWEB
   type: http
-  seq: 27
+  seq: 26
 
 http:
   method: GET
