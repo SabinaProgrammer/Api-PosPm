@@ -1,7 +1,7 @@
 info:
   name: PM_GetSTOCKREJECT
   type: http
-  seq: 11
+  seq: 8
 
 http:
   method: GET

@@ -1,7 +1,7 @@
 info:
   name: PM_GetDELIVERY
   type: http
-  seq: 10
+  seq: 7
 
 http:
   method: GET

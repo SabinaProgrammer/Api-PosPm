@@ -42,7 +42,7 @@ http:
             "PM_PERIODID": "1",
             "PM_FISCOYEAR": "2026",
             "PM_DAY": 31,
-            "ADDRESS_SEND": "ADDR001",
+            "ADDRESS_SEND": "AD000002",
             "ADDRESS_SALE": "5130",
             "RentalType": "TEST9",
             "DepositType": "TEST9",

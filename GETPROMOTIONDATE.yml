@@ -1,7 +1,7 @@
 info:
   name: GETPROMOTIONDATE
   type: http
-  seq: 32
+  seq: 26
 
 http:
   method: GET

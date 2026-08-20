@@ -1,7 +1,7 @@
 info:
   name: PM_GetSetUpPosDetail
   type: http
-  seq: 15
+  seq: 10
 
 http:
   method: GET

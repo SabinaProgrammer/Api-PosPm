@@ -1,7 +1,7 @@
 info:
   name: Report PM
   type: folder
-  seq: 25
+  seq: 20
 
 request:
   auth: inherit

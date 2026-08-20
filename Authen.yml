@@ -1,7 +1,7 @@
 info:
   name: Authen
   type: http
-  seq: 17
+  seq: 12
 
 http:
   method: POST

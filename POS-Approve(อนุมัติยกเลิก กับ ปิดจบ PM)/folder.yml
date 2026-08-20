@@ -1,7 +1,7 @@
 info:
   name: POS-Approve(อนุมัติยกเลิก กับ ปิดจบ PM)
   type: folder
-  seq: 29
+  seq: 24
 
 request:
   headers:

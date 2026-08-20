@@ -1,7 +1,7 @@
 info:
   name: POS Tab
   type: folder
-  seq: 22
+  seq: 17
 
 request:
   auth: inherit

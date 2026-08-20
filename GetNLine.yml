@@ -1,7 +1,7 @@
 info:
   name: GetNLine
   type: http
-  seq: 23
+  seq: 18
 
 http:
   method: GET
