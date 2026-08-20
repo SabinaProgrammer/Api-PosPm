@@ -1,0 +1,7 @@
+info:
+  name: SAVEPM
+  type: folder
+  seq: 33
+
+request:
+  auth: inherit
