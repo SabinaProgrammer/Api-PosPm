@@ -36,6 +36,8 @@ http:
         },
         "pm_Dates": [
           {
+            "STARTDATE": "2026-09-15",
+            "ENDDATE": "2026-09-30",
             //"PM_TARGET": 0.00,  ลบไป
             "PM_PERIODID": "1",
             "PM_FISCOYEAR": "2026",
