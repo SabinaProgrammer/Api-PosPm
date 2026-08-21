@@ -11,32 +11,32 @@ http:
     data: |-
       {
         "PM": {
-          "PROMOTIONID": "PM26000087",
+          "PROMOTIONID": "PM26000111",
            "PromotionSetupPosType": "CON",
-          "PromotionSetupposStartDate": "2026-08-01T00:00:00",
-          "PromotionSetupposEndDate": "2026-08-30T00:00:00",
-          "CUSTOMERID": "002880",
+          "PromotionSetupposStartDate": "2026-09-15T00:00:00",
+          "PromotionSetupposEndDate": "2026-12-20T00:00:00",
+          "CUSTOMERID": "000214",
           "PromotionSetupposSenderID": 1,
            "PromotionSetupposNumber": 1,
           "PromotionSetupposSenderDate": "2026-08-24T00:00:00",
-          "N_LINE": "E13",
+          "N_LINE": "N14",
 
           "PromotionSetupposNumber": 1,
            "CREATEUSER": "admin"
         },
         "PM_SetUpPosDetail": [
           {
-            "POSID": "P337"
+            "POSID": "P250"
           }
         ],
         "PM_SetUpPOSPM": [
           {
-            "PMID": "PM26000087"
+            "PMID": "PM26000111"
           }
         ],
         "PM_SETUPPOS_POSSTATION_HISTORY": [
           {
-            "POSID": "P337",
+            "POSID": "P250",
             "CREATEUSER": "admin"
           }
         ]
