@@ -1,5 +1,5 @@
 info:
-  name: POS_GetUsingPOS_CONT_ByNLine
+  name: POS_GetUsingPOS_CONT_BySender&Date
   type: http
   seq: 4
 
