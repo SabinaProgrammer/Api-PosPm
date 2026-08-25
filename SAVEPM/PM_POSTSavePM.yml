@@ -26,7 +26,8 @@ http:
           "FORECASTSHIP": 200,
           "PMSIZE": "S",
           "PromotionSetupposStartDate": "2026-09-15",
-          "PromotionSetupposEndDate": "2026-09-30"
+          "PromotionSetupposEndDate": "2026-09-30",
+          DISCOUNT : 0
         },
         "pm_Dates": [
           {
@@ -70,3 +71,4 @@ settings:
   timeout: 0
   followRedirects: true
   maxRedirects: 5
+  forwardAuthorizationHeader: true
