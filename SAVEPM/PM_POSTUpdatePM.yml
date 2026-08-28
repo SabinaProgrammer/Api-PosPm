@@ -36,7 +36,7 @@ http:
         "PM_Dates": [
           {
              "STARTDATE": "2026-09-15",
-            "ENDDATE": "2026-09-30",
+            "ENDDATE": "2026-10-30",
             //"PM_TARGET": 0.00,  ลบไป
             "PM_PERIODID": "09",
             "PM_FISCOYEAR": "2026",
@@ -114,3 +114,4 @@ settings:
   timeout: 0
   followRedirects: true
   maxRedirects: 5
+  forwardAuthorizationHeader: true

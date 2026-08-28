@@ -10,8 +10,8 @@ http:
     type: json
     data: |-
       {
-        "id": "Kruawan_a",
-        "password": "password"
+        "id": "Supamas_S",
+        "password": "Supamas_S"
       }
   auth: inherit
 
@@ -20,3 +20,4 @@ settings:
   timeout: 0
   followRedirects: true
   maxRedirects: 5
+  forwardAuthorizationHeader: true

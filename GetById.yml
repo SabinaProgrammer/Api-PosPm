@@ -5,10 +5,10 @@ info:
 
 http:
   method: GET
-  url: "{{base_url}}/PM/GetById?promotionId=PM26001089"
+  url: "{{base_url}}/PM/GetById?promotionId=PM26001093"
   params:
     - name: promotionId
-      value: PM26001089
+      value: PM26001093
       type: query
   auth: inherit
 
@@ -17,3 +17,4 @@ settings:
   timeout: 0
   followRedirects: true
   maxRedirects: 5
+  forwardAuthorizationHeader: true
