@@ -1,11 +1,14 @@
 info:
   name: GetById
   type: http
-  seq: 31
+  seq: 23
 
 http:
   method: GET
-
+  url: "{{base_url}}/PM/GetById?promotionId=PM26000073"
+  params:
+    - name: promotionId
+      value: PM26000073
       type: query
   auth: inherit
 
