@@ -12,37 +12,53 @@ http:
       {
         "pm": {
           "companyid": "SBN",
-          "customerid": "000214",
-          "customername": "บริษัท สยามพารากอน รีเทล จำกัด",
-          "address1": "677-681 ถนนจักรเพชร แขวงวังบูรพาภิรมย์",
-          "address2": "เขตพระนคร กรุงเทพฯ",
-          "telephone": "0812345678",
+          "customerid": "001622",
+          "customername": "เฉพาะกิจ  NE14-2",
+          "address1": "86 หมู่ที่2  ต.เวียง",
+          "address2": "อ.พร้าว  จ.เชียงใหม่",
+          "telephone": "085-4838141",
           "createuserid": "admin",
           "status": 0,
           "addressid": "ADDR001",
-          "pmdate": "2026-08-11",
-          "B": 2,
-          "FORECASTSALE": 9000,
-          "FORECASTSHIP": 200,
+          "pmdate": "2026-08-27",
+          "B": 2.50,
+          "FORECASTSALE": 100000,
+          "FORECASTSHIP": 200000,
           "PMSIZE": "S",
-          "PromotionSetupposStartDate": "2026-09-15",
-          "PromotionSetupposEndDate": "2026-09-30",
+          "PromotionSetupposStartDate": "2026-09-01",
+          "PromotionSetupposEndDate": "2026-10-31",
           "DISCOUNT" : 0
         },
         "pm_Dates": [
           {
-            "STARTDATE": "2026-09-15",
+            "STARTDATE": "2026-09-01",
             "ENDDATE": "2026-09-30",
             //"PM_TARGET": 0.00,  ลบไป
             "PM_PERIODID": "1",
             "PM_FISCOYEAR": "2026",
+            "PM_DAY": 30,
+            "ADDRESS_SEND": "AD000183",
+            "ADDRESS_SALE": "15",
+            "RentalType": "N",
+            "DepositType": "NON",
+            "RentalGP": 0.00,
+            "RentalAmount": 0.00,
+            "DepositAmount": 1000,
+            "ISINDOOR": true
+          },
+          {
+              "STARTDATE": "2026-10-01",
+            "ENDDATE": "2026-10-31",
+            //"PM_TARGET": 0.00,  ลบไป
+            "PM_PERIODID": "1",
+            "PM_FISCOYEAR": "2026",
             "PM_DAY": 31,
-            "ADDRESS_SEND": "AD000002",
-            "ADDRESS_SALE": "5130",
-            "RentalType": "TEST9",
-            "DepositType": "TEST9",
-            "RentalGP": 150,
-            "RentalAmount": 5000,
+            "ADDRESS_SEND": "AD000675",
+            "ADDRESS_SALE": "63",
+            "RentalType": "N",
+            "DepositType": "NON",
+            "RentalGP": 0.00,
+            "RentalAmount": 0.00,
             "DepositAmount": 1000,
             "ISINDOOR": true
           }
@@ -59,7 +75,7 @@ http:
         ],
         "pm_PriceLists": [
           {
-            "PRICELISTID": "PL001",
+            "PRICELISTID": "PPL152",
             "TARGET": 0
           }
         ]

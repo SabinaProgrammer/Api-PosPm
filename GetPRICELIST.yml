@@ -1,14 +1,14 @@
 info:
   name: GetPRICELIST
   type: http
-  seq: 30
+  seq: 29
 
 http:
   method: GET
-  url: "{{base_url}}/PM/GetPRICELIST?PRICELISTID=PPL154"
+  url: "{{base_url}}/PM/GetPRICELIST?PRICELISTID=001598"
   params:
     - name: PRICELISTID
-      value: PPL154
+      value: "001598"
       type: query
   auth: inherit
 

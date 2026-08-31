@@ -11,10 +11,10 @@ http:
     data: |-
       {
         "PM": {
-          "PROMOTIONID": "PM26000095",
+          "PROMOTIONID": "PM26000133",
           "PromotionSetupPosType": "AUTO",
-          "PromotionSetupposSenderDate": "2026-09-07",
-          "PromotionSetupposSenderID": "0",
+          "PromotionSetupposSenderDate": "2026-09-25",
+          "PromotionSetupposSenderID": "2",
           "PromotionSetupposNumber": "1"
         }
       }
@@ -25,3 +25,4 @@ settings:
   timeout: 0
   followRedirects: true
   maxRedirects: 5
+  forwardAuthorizationHeader: true
