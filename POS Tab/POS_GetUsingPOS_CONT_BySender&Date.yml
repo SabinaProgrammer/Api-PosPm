@@ -6,13 +6,11 @@ info:
 http:
   method: GET
 
-
   params:
     - name: senderId
       value: "1"
       type: query
     - name: startDate
-
 
       type: query
   auth: inherit
@@ -22,3 +20,4 @@ settings:
   timeout: 0
   followRedirects: true
   maxRedirects: 5
+  forwardAuthorizationHeader: true

@@ -6,10 +6,9 @@ info:
 http:
   method: GET
 
-
   params:
     - name: promotionId
-      value: PM26000111
+      value: PM26000905
       type: query
   auth: inherit
 
@@ -18,3 +17,4 @@ settings:
   timeout: 0
   followRedirects: true
   maxRedirects: 5
+  forwardAuthorizationHeader: true
