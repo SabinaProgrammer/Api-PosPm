@@ -1,14 +1,14 @@
 info:
-  name: GetStockReject
+  name: GetDelivery
   type: http
   seq: 1
 
 http:
   method: GET
-  url: "{{base_url}}/POS/Approve/GetStockReject?customerid=000024"
+  url: "{{base_url}}/POS/Approve/GetDelivery?docno=RHX00001226070002"
   params:
-    - name: customerid
-      value: "000024"
+    - name: docno
+      value: RHX00001226070002
       type: query
   auth: inherit
 
@@ -17,3 +17,4 @@ settings:
   timeout: 0
   followRedirects: true
   maxRedirects: 5
+  forwardAuthorizationHeader: true

@@ -5,10 +5,10 @@ info:
 
 http:
   method: GET
-  url: "{{base_url}}/PM/GetSender?province=ชลบุรี"
+  url: "{{base_url}}/PM/GetSender?province=อุตรดิตถ์"
   params:
     - name: province
-      value: ชลบุรี
+      value: อุตรดิตถ์
       type: query
   auth: inherit
 
@@ -17,3 +17,4 @@ settings:
   timeout: 0
   followRedirects: true
   maxRedirects: 5
+  forwardAuthorizationHeader: true

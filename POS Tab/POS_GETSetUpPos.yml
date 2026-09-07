@@ -5,10 +5,10 @@ info:
 
 http:
   method: GET
-  url: "{{base_url}}/PM/GetSetUpPos?DocNo=POS260132"
+  url: "{{base_url}}/PM/GetSetUpPos?DocNo=POS261121"
   params:
     - name: DocNo
-      value: POS260132
+      value: POS261121
       type: query
   auth: inherit
 

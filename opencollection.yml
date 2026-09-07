@@ -18,6 +18,9 @@ request:
   headers:
     - name: Authorization
       value: Bearer  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IkNIQVQiLCJleHAiOjE3ODgyNTAzNzAsImlzcyI6InNibnBvcy5zYWJpbmEuY28udGgiLCJhdWQiOiJzYm5wb3Muc2FiaW5hLmNvLnRoIn0.bJox2KcyRp37K42WX3J5HVCuZrLiWCp7eaitzSeSq1Y
+  auth:
+    type: bearer
+    token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IkNIQVQiLCJleHAiOjE3ODg4MzY5MjEsImlzcyI6InNibnBvcy5zYWJpbmEuY28udGgiLCJhdWQiOiJzYm5wb3Muc2FiaW5hLmNvLnRoIn0.nAqrxx5Du1OqSY3HaLhZ0iedOZJ7Kl58GpdHMSpXu7Y
 bundled: false
 extensions:
   bruno:
